@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Personal Profile</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">William G Manuputty</string>
+    <string name="nav_header_subtitle">manuputtywilliam@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+    <string name="googlemapsapikey">AIzaSyCSD216FkxDyikRrSxOLu5IitmOV5hTMSg</string>
+
+    <string name="slide_1_title">WELCOME</string>
+    <string name="slide_1_desc">Ini adalaha aplikasi tentang saya</string>
+
+    <string name="slide_2_title">WELCOME</string>
+    <string name="slide_2_desc">Ini adalah aplikasi tentnag saya</string>
+
+    <string name="slide_3_title">WELCOME</string>
+    <string name="slide_3_desc">Ini adalah aplikasi tentang saya</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

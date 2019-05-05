@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativ1">
+    <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="127dp"
+            android:layout_height="104dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/fotodiri" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="William Gilbert Manuputty"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama"
+            android:textAlignment="center"
+            android:text="Saya hanya manusia biasa yang tak sempurna"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativ1"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/interest"
+            android:text="Interest"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hobby"
+            android:layout_below="@+id/interest"
+            android:layout_marginTop="20dp"
+            android:text="Hobby : Main Game , Buat lyric"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/makes"
+            android:layout_below="@+id/hobby"
+            android:layout_marginLeft="20dp"
+            android:text="Makes : Nasi Goreng , Nasi Padang , Papeda"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mikes"
+            android:layout_below="@+id/makes"
+            android:layout_marginLeft="20dp"
+            android:text="Mikes : Juice , Sport Drink , Water"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/interest2"
+            android:layout_below="@+id/mikes"
+            android:layout_marginLeft="20dp"
+            android:text="Interest : Membuat game"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cita"
+            android:layout_below="@+id/interest2"
+            android:layout_marginLeft="20dp"
+            android:text="Cita Cita : Jadi Youtuber"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
